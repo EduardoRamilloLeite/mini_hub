@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: linear-gradient(to right, #001f3f, #ffffff);
+    width: 1300px;
+    height: 700px;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 3%;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    padding-top: 30px;
+    margin-left: 510px;
+    font-size: 30px;
+    font-weight: bold; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: whitesmoke;
+}
+
+.card1:hover {
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 1.5);
+}
+
+.card1 {
+    border: 1px solid black;
+    height: 500px;
+    width: 250px;
+    margin-left: 133px;
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 3%;
+    display: inline-flex;
+}
+
+.card1 .list1 {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-left: -165px;}
+
+.card1:hover .list1{
+    opacity: 1;
+    transform: scale(1);
+    margin-left: -165px;    
+    
+}
+
+
+.image-panamera {
+    padding-bottom: 35px;
+    margin-top: 170px;
+    margin-left: -165px;
+    width: 220px;
+
+}
+
+ul li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    font-size: 15px;
+    text-shadow: 2px 2px 3px #6a6a6a;
+}
+
+.name-car {
+    margin-left: 70px;
+    padding-top: 18px;
+    color: whitesmoke;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/* card 2 */
+.card2:hover {
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 1.5);
+}
+
+.card2 {
+    border: 1px solid black;
+    height: 500px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3%;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.card2 .list2 {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-left: -165px;
+}
+
+
+.card2:hover .list2 {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 1.5);
+    margin-left: -165px;
+}
+
+.image-corvette {
+    padding-bottom: 35px;
+    margin-top: 170px;
+    margin-left: -165px;
+    width: 240px;
+}
+
+/* card 3 */
+
+.card3:hover {
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 1.5);
+}
+
+.card3 {
+    border: 1px solid black;
+    height: 500px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3%;
+    position: relative;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.card3 .list3 {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-left: -165px;
+}
+
+
+.card3:hover .list3{
+    opacity: 1;
+    transform: scale(1);
+    margin-left: -165px;
+}
+
+
+.image-ferrari {
+    padding-bottom: 35px;
+    margin-top: 170px;
+    margin-left: -150px;
+    width: 240px;
+}
